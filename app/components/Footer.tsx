@@ -1,4 +1,4 @@
-import { Leaf, Globe, ExternalLink } from 'lucide-react';
+import { Leaf, Globe, ExternalLink } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -16,27 +16,73 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-eco-gray-light text-sm leading-relaxed">
-              Platform digital cerdas untuk mendukung Bali yang lebih bersih, hijau, dan berkelanjutan melalui teknologi informasi.
+              Platform digital cerdas untuk mendukung Bali yang lebih bersih,
+              hijau, dan berkelanjutan melalui teknologi informasi.
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h4 className="font-semibold mb-4 text-eco-green-light">Navigasi</h4>
+            <h4 className="font-semibold mb-4 text-eco-green-light">
+              Navigasi
+            </h4>
             <ul className="space-y-2 text-sm text-eco-gray-light">
-              <li><a href="#hero" className="hover:text-white transition-colors">Beranda</a></li>
-              <li><a href="#calculator" className="hover:text-white transition-colors">Kalkulator Hijau</a></li>
-              <li><a href="#dashboard" className="hover:text-white transition-colors">Dashboard</a></li>
-              <li><a href="#game" className="hover:text-white transition-colors">Mini Game</a></li>
-              <li><a href="#map" className="hover:text-white transition-colors">Peta Lokasi</a></li>
+              <li>
+                <a href="#hero" className="hover:text-white transition-colors">
+                  Beranda
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#waste-utilization"
+                  className="hover:text-white transition-colors"
+                >
+                  Edukasi
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#calculator"
+                  className="hover:text-white transition-colors"
+                >
+                  Kalkulator Hijau
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#dashboard"
+                  className="hover:text-white transition-colors"
+                >
+                  Dashboard
+                </a>
+              </li>
+              <li>
+                <a href="#game" className="hover:text-white transition-colors">
+                  Mini Game
+                </a>
+              </li>
+              <li>
+                <a href="#map" className="hover:text-white transition-colors">
+                  Peta Lokasi
+                </a>
+              </li>
             </ul>
           </div>
 
           {/* Tech Stack */}
           <div>
-            <h4 className="font-semibold mb-4 text-eco-green-light">Dibangun Dengan</h4>
+            <h4 className="font-semibold mb-4 text-eco-green-light">
+              Dibangun Dengan
+            </h4>
             <div className="flex flex-wrap gap-2">
-              {['Next.js', 'TypeScript', 'Tailwind CSS', 'Recharts', 'Leaflet', 'React'].map((tech) => (
+              {[
+                "Next.js",
+                "TypeScript",
+                "Tailwind CSS",
+                "Recharts",
+                "Leaflet",
+                "React",
+              ].map((tech) => (
                 <span
                   key={tech}
                   className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium text-eco-gray-light"
@@ -50,7 +96,8 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-eco-gray-light text-sm text-center sm:text-left">
-            © 2026 EcoBali Tech — Fakultas Teknologi Informasi. Dibuat untuk demo & promosi fakultas.
+            © 2026 EcoBali Tech — Prodi Teknologi Informasi Undiknas. Dibuat untuk
+            demo & promosi Prodi Teknologi Informasi.
           </p>
           <div className="flex items-center gap-4">
             <a
