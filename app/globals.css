@@ -105,8 +105,9 @@
 /* ========== Base Styles ========== */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 100px;
 }
+
 
 body {
   background: var(--background);

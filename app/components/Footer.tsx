@@ -62,6 +62,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="#news" className="hover:text-white transition-colors">
+                  Berita
+                </a>
+              </li>
+              <li>
                 <a href="#map" className="hover:text-white transition-colors">
                   Peta Lokasi
                 </a>
@@ -96,8 +101,8 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-eco-gray-light text-sm text-center sm:text-left">
-            © 2026 EcoBali Tech — Prodi Teknologi Informasi Undiknas. Dibuat untuk
-            demo & promosi Prodi Teknologi Informasi.
+            © 2026 EcoBali Tech — Prodi Teknologi Informasi Undiknas. Dibuat
+            untuk demo & promosi Prodi Teknologi Informasi.
           </p>
           <div className="flex items-center gap-4">
             <a

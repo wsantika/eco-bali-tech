@@ -8,6 +8,7 @@ import MapSection from "./components/MapSection";
 import FacultyPromo from "./components/FacultyPromo";
 import Footer from "./components/Footer";
 import WasteUtilization from "./components/WasteUtilization";
+import NewsSection from './components/NewsSection';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Calculator />
         <Dashboard />
         <WasteGame />
+        <NewsSection />
         <MapSection />
         <FacultyPromo />
       </main>

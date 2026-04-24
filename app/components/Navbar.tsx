@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Kalkulator", id: "calculator" },
   { label: "Dashboard", id: "dashboard" },
   { label: "Mini Game", id: "game" },
+  { label: 'Berita', id: 'news' },
   { label: "Peta", id: "map" },
   { label: "Tentang", id: "about" },
 ];
